@@ -137,7 +137,6 @@
             }
         }
 
-        /* Tambahkan CSS untuk carousel */
         .carousel-item img {
             max-height: 600px;
             object-fit: cover;
@@ -159,12 +158,17 @@
             bottom: 0;
             width: 100%;
         }
-    </style>
+
+        .navbar {
+            background-color: rgba(85, 83, 83, 0.6); /* Change the background color to have some transparency */
+        }   
+                
+            </style>
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a style="margin-left: 15%; font-weight: 900;" class="navbar-brand" href="#">KARANG TENGAH</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -182,7 +186,7 @@
                     <a class="nav-link" href="dataPendudukKarangTengah.html">Data Penduduk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="kontakKarangTengah.html">Kontak</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Login</a>
@@ -194,10 +198,10 @@
     <div class="hero-section">
         <div class="container">
             <div class="text-content">
-                <h1>SELAMAT DATANG KALIAN!</h1>
+                <h1>SELAMAT DATANG!</h1>
                 <p>Di <span style="color: #f0ad4e;">Website</span> Karang Tengah</p>
-                <button class="btn btn-custom">HIRE ME</button>
-                <button class="btn btn-outline-dark">MY WORKS</button>
+                <button class="btn btn-custom">Lanjut</button>
+                <button class="btn btn-outline-dark">Data Penduduk</button>
             </div>
             <img src="images/logogunungkidul.png" alt="Logo">
         </div>
@@ -208,7 +212,7 @@
         <div class="container">
             <img src="images/maps1.png" alt="Map Image" class="" width="400px;">
             <div class="text-content">
-                <h2>Tentang Karang Tengah</h2>
+                <h2 id="tentang">Tentang Karang Tengah</h2>
                 <p>Desa Karang Tengah adalah sebuah desa yang terletak di wilayah pesisir yang indah. Dikelilingi oleh
                     pemandangan alam yang menakjubkan, desa ini menawarkan kombinasi antara pegunungan yang hijau dan
                     pantai yang menawan. Lokasinya yang strategis menjadikannya tempat yang ideal bagi masyarakat yang
@@ -261,7 +265,7 @@
             <a href="https://www.instagram.com/karangtengah63_kkn85uajy?igsh=MTBnNWwxdGZtaTlvbA==" target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"
                     alt="Instagram Logo" style="width: 30px;">
-                <span style="margin-left: 10px;">@karangtengah63_kkn85uajy</span>
+                <!-- <span style="margin-left: 10px;">@karangtengah63_kkn85uajy</span>  -->
             </a>
         </div>
     </footer>
@@ -270,5 +274,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+</html>
 
 </html>
